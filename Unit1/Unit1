@@ -1,0 +1,6 @@
+// Program to convert 34°C to Fahrenheit using the formula: F = 9 / 5 * C + 32
+
+const celsius: number = 34;
+const fahrenheit: number = (9 / 5) * celsius + 32;
+
+console.log(`${celsius}°C is equal to ${fahrenheit}°F`);
