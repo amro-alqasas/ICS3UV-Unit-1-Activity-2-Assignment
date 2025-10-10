@@ -1,0 +1,9 @@
+// Program to calculate the gross pay for an employee named Fred
+
+const employeeName: string = "Fred";
+const hoursWorked: number = 40;
+const hourlyWage: number = 8.20;
+const grossPay: number = hoursWorked * hourlyWage;
+
+console.log(`${employeeName} worked ${hoursWorked} hours at $${hourlyWage.toFixed(2)} per hour.`);
+console.log(`Gross pay is $${grossPay.toFixed(2)}`);
