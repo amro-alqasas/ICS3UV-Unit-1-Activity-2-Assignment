@@ -1,0 +1,6 @@
+// Program to compute and output the volume of a sphere with radius 4 cm
+
+const radius: number = 4;
+const volume: number = (4 / 3) * Math.PI * Math.pow(radius, 3);
+
+console.log(`The volume of a sphere with radius ${radius} cm is ${volume.toFixed(2)} cm³`);
