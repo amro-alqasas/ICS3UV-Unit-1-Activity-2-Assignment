@@ -1,0 +1,6 @@
+// Program to compute and output the area of a circle with radius 14 cm
+
+const radius: number = 14;
+const area: number = Math.PI * radius * radius;
+
+console.log(`The area of a circle with radius ${radius} cm is ${area.toFixed(2)} cm²`);
