@@ -1,0 +1,5 @@
+const PI: number = 3.14;
+const radius: number = 5.6;
+const area: number = PI * radius * radius;
+
+console.log(`The area of a circle with a radius of ${radius} cm is ${area.toFixed(2)} cm².`);
