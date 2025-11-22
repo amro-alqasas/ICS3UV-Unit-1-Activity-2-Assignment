@@ -1,0 +1,17 @@
+// Program to display multiplication table for 9 from 0 to 12 (no loops)
+
+const n: number = 9;
+
+console.log(`0 X ${n} = ${0 * n}`);
+console.log(`1 X ${n} = ${1 * n}`);
+console.log(`2 X ${n} = ${2 * n}`);
+console.log(`3 X ${n} = ${3 * n}`);
+console.log(`4 X ${n} = ${4 * n}`);
+console.log(`5 X ${n} = ${5 * n}`);
+console.log(`6 X ${n} = ${6 * n}`);
+console.log(`7 X ${n} = ${7 * n}`);
+console.log(`8 X ${n} = ${8 * n}`);
+console.log(`9 X ${n} = ${9 * n}`);
+console.log(`10 X ${n} = ${10 * n}`);
+console.log(`11 X ${n} = ${11 * n}`);
+console.log(`12 X ${n} = ${12 * n}`);
