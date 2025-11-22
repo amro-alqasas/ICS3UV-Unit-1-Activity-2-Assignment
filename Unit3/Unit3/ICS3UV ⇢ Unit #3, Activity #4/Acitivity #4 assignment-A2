@@ -1,0 +1,22 @@
+// Program to check if a contestant's weight qualifies for the pie eating contest
+
+const MIN_WEIGHT = 77.0; // Minimum weight in kilograms
+const MAX_WEIGHT = 105.0; // Maximum weight in kilograms
+
+// Get user input from the terminal
+const readline = require("readline").createInterface({
+    input: process.stdin,
+    output: process.stdout,
+});
+
+readline.question("How much do you weigh? ", (input) => {
+    const contestantWeight = parseFloat(input);
+
+    if (contestantWeight >= MIN_WEIGHT && contestantWeight <= MAX_WEIGHT) {
+        console.log("You may enter the contest.");
+    } else {
+        console.log("You do not qualify for the contest.");
+    }
+
+    readline.close();
+});
